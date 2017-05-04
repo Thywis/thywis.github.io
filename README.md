@@ -1,5 +1,9 @@
-# thywis.github.io
-Thywis .Inc Company Webpage
+# Thywis Company Website
 
-## To Do:
-- ico need to be transparency
+	
+	
+	
+	
+	
+	
+
