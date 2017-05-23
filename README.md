@@ -1,9 +1,0 @@
-# Thywis Company Website
-
-	
-	
-	
-	
-	
-	
-
