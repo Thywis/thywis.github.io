@@ -1,177 +1,267 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
-        <link rel="stylesheet" href="css/basic.css" />
-        <link rel="stylesheet" href="css/navbar.css" />
-        <link rel="stylesheet" href="css/landing.css" />
-        <script src="js/lib/jquery.js"></script>
-    </head>
-    <body>
-        <header>
-            <div id="nav" class="wrapper white">
-                <div id="page-title">
-                    Thywis
-                </div>
-                <ul id="page-nav">
-                    <li>
-                        <a data-href="#landing-section">Home</a>
-                    </li>
-                    <li>
-                        <a data-href="#technology-section">Technology</a>
-                    </li>
-                    <li>
-                        <a data-href="#feature-section">Features</a>
-                    </li>
-                    <li>
-                        <a data-href="#core-value-section">Values</a>
-                    </li>
-                    <li>
-                        <a data-href="#team-section">Team</a>
-                    </li>
-                </ul>
+  <head>
+    <title>Follow Me</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="css/buttons/social-icons.css">
+    <!--[if IE 7]>
+        <link rel="stylesheet" href="css/buttons/social-icons-ie7.css">
+    <![endif]-->
+    <!-- Bootstrap -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+    <!-- Template Styles -->
+    <link href="css/itembridge-icon-set.css" rel="stylesheet" media="screen">
+    <link href="css/style.css" rel="stylesheet" media="screen">
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="150">
+    <header id="home" class="container-box home">
+      <div class="header-box">
+        <div class="header-title">
+            <h1 class="page-title">Thywis.inc</h1>
+          <div class="header-title-scroll left">
+            <h1 class="page-title">Our product with your <span>wisdom</span></h1>
+            <h1 class="page-title">creates true <span>individualiztion</span>.</h1>
+          </div>
+          <h6 class="sub-page-title right">When artificial intelligence meet user experience.</h6>
+        </div>
+        <div class="left-overlay"></div>
+        <div class="right-overlay"></div>
+        <div class="center-overlay"></div>
+        <ul id="header-slider">
+          <li style="background-image: url(content/uniqueness.jpg);"></li>
+        </ul>
+        <a href="#" class="arrow-down"></a>
+      </div>
+    </header>
+    <div id="navbar" class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <a class="brand" href="#home"><img src="content/logo-black.png" alt=""></a>
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <div class="pull-left">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
             </div>
-        </header>
-        <main>
-            <section id="landing-section" style="background-image: url('img/landing.jpg')">
-                <div class="wrapper white center">
-                    <h1 id="landing-title">Thywis <span style="font-weight: 100">Your Wisdom</span></h1>
-                    <p>
-                        Create consumer products with stunning AI experience, taking care of every
-                        customer's personal needs.
-                    </p>
-                    <button id="explore-button" class="white">Explore</button>
-                </div>
-            </section>
-            <section id="technology-section">
-                <div class="wrapper center">
-                    <h2 class="section-header">Technology</h2>
-                    <div class="divider"></div>
-                    <p id="technology-intro">
-                        We realized that the difference between people are greater than a set of
-                        parameters. We developed IAI(Individualize Artificial Intelligence)
-                        technology, a combination of individualized dynamic model and domain
-                        specific model. Each IAI agent only serves and constantly learns from its
-                        master, being as responsive as a secretary.
-                    </p>
-                    <div id="iai-modules" class="row">
-                        <div class="col-6 center">
-                            <h3>Individualized Model</h3>
-                            <div class="divider"></div>
-                            <p>
-                                A Model that is individualized to the only user. It is specified
-                                to be with, learn from, and support for that only user, helping
-                                solving individual problems.
-                            </p>
-                        </div>
-                        <div class="col-6 center">
-                            <h3>Dynamic Universal Model</h3>
-                            <div class="divider"></div>
-                            <p>
-                                We also build model that is universal to discover the trends of the
-                                world. It will learn from every user and solve the commonly existed
-                                problems.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section id="feature-section" style="background-image: url(img/feature.jpg)">
-                <div class="wrapper white center">
-                    <h2 class="section-header">Products features</h2>
-                    <div class="divider"></div>
-                    <ul id="features-list">
-                        <li>
-                            <img src="img/individualized.png" />
-                            <h3>Individualized</h3>
-                        </li>
-                        <li>
-                            <img src="img/adaptive.png" />
-                            <h3>Self-Adaptive</h3>
-                        </li>
-                        <li>
-                            <img src="img/customizable.png" />
-                            <h3>Customizable</h3>
-                        </li>
-                        <li>
-                            <img src="img/secure.png" />
-                            <h3>Secure</h3>
-                        </li>
-                    </ul>
-                    <p>
-                        We plan to build a series of IAI product that make your life easier. Our first
-                        product is a individualized AI Inbox client that separates emails you care about
-                        from the ones you don't, and auto tagging your emails according to your specific
-                        needs.
-                    </p>
-                </div>
-            </section>
-            <section id="core-value-section">
-                <div class="wrapper center">
-                    <ul id="core-values-list">
-                        <li>
-                            <h3>Privacy</h3>
-                            <div class="divider"></div>
-                            <p>
-                                Thywis values privacy as a law rather than a virtue. Every person from
-                                executives to interns have the right and responsibility to make sure that
-                                every decision made by the company takes privacy protection into account.
-                                We strive our best to protect our customer's information from external
-                                hazard and internal misuse.
-                            </p>
-                        </li>
-                        <li>
-                            <h2 class="section-header">Core Values</h2>
-                            <div class="divider"></div>
-                        </li>
-                        <li>
-                            <h3>Responsiveness</h3>
-                            <div class="divider"></div>
-                            <p>
-                                Thywis pay attentions to our customers' needs and concerns. We'd be grateful
-                                if you contact us with any suggestions and we love to improve our product
-                                and service to meet your personal need.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section id="team-section" style="background-image: url(img/desk.jpg)">
-                <ul id="team-list" class="white">
-                    <li>
-                        <h2>Meet Our Team</h2>
-                        <div class="divider"></div>
-                    </li>
-                    <li style="background-image: url(img/team/kedan.jpg)">
-                        <a>Kedan Li</a>
-                    </li>
-                    <li></li>
-                    <li style="background-image: url(img/team/jinda.jpg)">
-                        <a>Jinda Han</a>
-                    </li>
-                    <li></li>
-                    <li style="background-image: url(img/team/yifei.jpg)">
-                        <a>Yifei Teng</a>
-                    </li>
-                    <li></li>
-                    <li style="background-image: url(img/team/ziyao.jpg)">
-                        <a>Ziyao Wang</a>
-                    </li>
-                    <li>
-                        <p>
-                            A team forced on Artificial Intelligence, user experience and
-                            engineering!
-                        </p>
-                    </li>
-                    <li style="background-image: url(img/team/liby.jpg)">
-                        <a>Ziyang Li</a>
-                    </li>
+            <span class="title">Menu</span>
+          </a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="acrive"><a href="#home">Home</a></li>
+              <li><a href="#about-us">Our Mission</a></li>
+              <li><a href="#team">Our Team</a></li>
+              <li><a href="#works">Works</a></li>
+              <li><a href="#contact">Contacts</a></li>
+            </ul>
+          </div>
+        </div>
+        <ul class="social top unstyled">
+          <li><a href="#"><i class="icon-facebook"></i></a></li>
+          <li><a href="#"><i class="icon-twitter"></i></a></li>
+          <li><a href="#"><i class="icon-gplus"></i></a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="about-us" class="container-box about">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h1 class="page-title left">Our <span>Mission</span>.</h1>
+            <blockquote class="page-description bottom"> We realized that the difference between individuals is far greater than a set of parameter. As our mission, we build solutions that adopt your personal preference, and only your preference!</blockquote>
+            <div class="about-meta pull-right rotate right">Kedan Li</div>
+          </div>
+        </div>
+        <div class="row">
+          <article class="span6 left">
+            <h6 class="sub-page-title right">Core Technology</h6>
+             We developed IAI(Individualize Artificial Intelligence), a combination of individualized dynamic model and domain specific model, beign as responsive as a secretary. </article>
+          <article class="span6 right">
+            <h6 class="sub-page-title right">Human Centered Design</h6>
+            Thywis strives to make AI smart in a way that benefit human the most. We care about the actual user experience more than any other aspect of our technology.
+          </article>
+        </div>
+      </div>
+    </div>
+    <div id="team" class="container-box team">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h1 class="page-title left">Our <span>Team</span>.</h1>
+            <h6 class="sub-page-title right">Who are we?</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span12">
+            <article class="page-description bottom">
+              Etiam enim lacus, ornare et tempor et, rhoncus rhoncus sem. Cras in velit ante, eget pellentesque sem. Duis tincidunt erat quam. Etiam placerat sapien. Fusce sed est orci, vel condimentum felis.
+            </article>
+          </div>
+        </div>
+        <div class="row bottom">
+          <div class="span4 team-item">
+            <div class="statick">
+              <div class="overlay"></div>
+              <img src="http://placehold.it/298x360" alt="">
+              <div class="statick-bottom">
+                <h4 class="title">Michael Jonson</h4>
+                <span class="sub-title">Chief Executive Officer</span>
+              </div>
+            </div>
+            <div class="hover">
+              <img src="http://placehold.it/298x360" alt="">
+              <div class="hover-bottom">
+                <h4 class="title">Michael Jonson</h4>
+                <span class="sub-title">Chief Executive Officer</span>
+                <p>Praesent rhoncus nunc vitae metus condimentum viverra. Fusce sed est orci, condimentum felis. Suspendisse ullamcorper.</p>
+                <ul class="social unstyled">
+                  <li><a href="#"><i class="icon-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-gplus"></i></a></li>
+                  <li><a href="#"><i class="icon-blogger"></i></a></li>
+                  <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                  <li><a href="#"><i class="icon-linkedin"></i></a></li>
                 </ul>
-            </section>
-            <footer class="center white">
-                &copy; Copyright Thywis 2017
-            </footer>
-        </main>
-        <script src="js/landing.js"></script>
-    </body>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+          <div class="span4 team-item">
+            <div class="statick">
+              <div class="overlay"></div>
+              <img src="http://placehold.it/298x360" alt="">
+              <div class="statick-bottom">
+                <h4 class="title">Mike Brin</h4>
+                <span class="sub-title">Technical Director</span>
+              </div>
+            </div>
+            <div class="hover">
+              <img src="http://placehold.it/298x360" alt="">
+              <div class="hover-bottom">
+                <h4 class="title">Mike Brin</h4>
+                <span class="sub-title">Technical Director</span>
+                <p>Praesent rhoncus nunc vitae metus condimentum viverra. Fusce sed est orci, condimentum felis. Suspendisse ullamcorper.</p>
+                <ul class="social unstyled">
+                  <li><a href="#"><i class="icon-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-gplus"></i></a></li>
+                  <li><a href="#"><i class="icon-blogger"></i></a></li>
+                  <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                  <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+          <div class="span4 team-item">
+            <div class="statick">
+              <div class="overlay"></div>
+              <img src="http://placehold.it/298x360" alt="">
+              <div class="statick-bottom">
+                <h4 class="title">Rayan Green</h4>
+                <span class="sub-title">Art Director</span>
+              </div>
+            </div>
+            <div class="hover">
+              <img src="http://placehold.it/298x360" alt="">
+              <div class="hover-bottom">
+                <h4 class="title">Rayan Green</h4>
+                <span class="sub-title">Art Director</span>
+                <p>Praesent rhoncus nunc vitae metus condimentum viverra. Fusce sed est orci, condimentum felis. Suspendisse ullamcorper.</p>
+                <ul class="social unstyled">
+                  <li><a href="#"><i class="icon-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-gplus"></i></a></li>
+                  <li><a href="#"><i class="icon-blogger"></i></a></li>
+                  <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                  <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="works" class="container-box works">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h1 class="page-title left">Our <span>Works</span>.</h1>
+            <h6 class="sub-page-title right">Who do we do?</h6>
+          </div>
+        </div>
+        <div class="row works-list bottom">
+          <div class="span12 works-item" data-item="1">
+            <div class="small">
+              <img src="content/pickedmail_small.png" alt="">
+              <h4 class="title">Picked.Email</h4>
+              <div class="arrow"></div>
+            </div>
+            <div class="large">
+              <div class="close"></div>
+              <div class="container">
+                <div class="row">
+                  <div class="span6"><img src="content/pickedmail.png" alt=""></div>
+                  <div class="span6">
+                    <h1>Picked.Email</h1>
+                    <p>PickedMail brings true individualizations to email by picking out only the emails you care about. It starts with a generic classification, but once you start using it, it learns and only adopt your preference.
+</p><p>
+PickedMail also allows you to create any custom tag you want, and auto tag incoming emails. You can also set which tags you want custom notification for.</p>
+                    <a href="http://picked.email" class="btn">View Site</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="contact" class="container-box contact">
+      <div class="container">
+        <div class="row">
+          <div class="span12">
+            <h1 class="page-title left">Contact <span>Us</span>.</h1>
+            <h6 class="sub-page-title right">Who are we?</h6>
+          </div>
+        </div>
+        <div class="row">
+          <div class="span6 left">
+            <h4>Address</h4>
+            <p>1465 65th St, Suite 312,<br> Emeryville, CA, 94608</p>
+          </div>
+          <div class="span6 right">
+            <h4>Email</h4>
+            <p>Support: <a href="mailto:hello@thywis.com">hello@thywis.com</a><br> Director: <a href="mailto:kedan@thywis.com">kedan@thywis.com</a></p>
+          </div>
+        </div>
+        <form class="row">
+          <div class="span6">
+            <input type="text" placeholder="Name *" class="span6 left">
+            <input type="email" placeholder="Email *" class="span6 left">
+          </div>
+          <div class="span6">
+            <textarea placeholder="Message *" class="span6 right"></textarea>
+            <input type="submit" value="Submit" class="pull-right btn btn-primary bottom">
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <ul class="social footer-social unstyled">
+        <li><a href="https://www.facebook.com/pickedmail/"><i class="icon-facebook"></i></a></li>
+        <li><a href="https://twitter.com/PickedMail"><i class="icon-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/company/thywis-inc."><i class="icon-linkedin"></i></a></li>
+      </ul>
+      <p class="copyright">Copyright &copy; Thywis inc., 2017</p>
+    </footer>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.minicolors.js"></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
